@@ -85,6 +85,63 @@ body {
     }
 }
 
+section #house {
+    z-index: 2;
+}
+
 #header ul li a:hover, #header ul li a.active {
-    background-color: #112434;
+    background-color: #112434bd;
+}
+
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+section #crs {
+    top: 0;
+    bottom: initial;
+}
+
+
+#txt{
+    position: absolute;
+    color: white; 
+    z-index: 1;
+    left: -150px;
+    font-size: 8em;
+    font-weight: 900;
+    text-transform: uppercase;
+    white-space: nowrap;
+    -webkit-text-stroke: 2px black;
+}
+
+.sec{
+    position: relative;
+    padding: 100px;
+    background-color: #bedbe5;
+    box-shadow: 0 0 0 2px #bedbe5;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.sec p {
+    font-size: 1em;
+    color: black;
 }
