@@ -56,6 +56,7 @@ body {
     text-decoration: none;
     color: #fff;
     padding: 5px 10px;
+    border-radius: 20px;
 }
 
 @media (max-width: 564px){
@@ -82,4 +83,8 @@ body {
         justify-content: center;
         align-items: center;
     }
+}
+
+#header ul li a:hover, #header ul li a.active {
+    background-color: #112434;
 }
